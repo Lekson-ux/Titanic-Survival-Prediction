@@ -2,14 +2,6 @@ import streamlit as st
 import pandas as pd
 import pickle
 
-# Load the trained machine learning model
-model = pickle.load(open("titanic_model.pkl", "rb"))
-
-
-
-import streamlit as st
-import pandas as pd
-import pickle
 
 # Load the trained machine learning model
 model = pickle.load(open("Titanic_model.pkl", "rb"))
