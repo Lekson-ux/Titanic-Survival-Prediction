@@ -4,7 +4,7 @@ import pickle
 import sklearn
 import streamlit
 import numpy as np
-import pandas as pd
+
 
 load_model = pickle.load(open('Titanic_model.pkl', 'rb'))
 
